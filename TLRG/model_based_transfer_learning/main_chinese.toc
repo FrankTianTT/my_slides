@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{概述}{2}{0}{1}
+\beamer@sectionintoc {1}{引言}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{1}{传统强化学习中的探索问题}{3}{0}{1}
+\beamer@sectionintoc {2}{基于共享模型成分的迁移学习}{6}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{2}{深度强化学习}{6}{0}{1}
+\beamer@subsectionintoc {2}{1}{利用高斯过程的迁移学习}{7}{0}{2}

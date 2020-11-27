@@ -1,4 +1,5 @@
 \documentclass[aspectratio=169]{beamer}
+\usefonttheme[onlymath]{serif}
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx} % Allows including images
@@ -178,11 +179,35 @@
   \begin{itemize}
     \item Value-Based：和传统强化学习一样，试图学到一个值函数（Q Function或者V Function），通过这个值函数贪心（或在贪心的基础之上探索）形成策略，理论基础是广义策略迭代。
     \item Policy-Based：基于函数逼近的方法，因为深度学习强大的拟合能力而成为深度强化学习的主流方法，直接学习$\pi:S \rightarrow A$，理论基础是策略梯度定理。
-    \item 两种思想结合形成Actor-Critic方法。
+    \item 两种思想结合形成一大类Actor-Critic方法。其中A2C，A3C，PPO，TRPO等方法是On-Policy的，也被视为Policy-Based，而DDPG，TD3，D4PG，SAC等算法是Off-Policy的。
   \end{itemize}
 \end{frame}
 
 \begin{frame}
+  \frametitle{Value-Based}
+  \begin{itemize}
+    \item DQN\cite{mnih2015human}是深度学习和强化学习结合的第一步，将Q-learning\cite{watkins1992q}和神经网络结合起来。
+    \item DRQN\cite{hausknecht2015deep}将DQN和RNN结合起来，用来解决POMDP问题（但是因为训练成本和采样效率的问题，时序模型在强化学习中并不常见）。
+    \item Dueling DQN\cite{wang2016dueling}将Q Funtion拆开分成Advantage Funtion和Value Funtion的和，提升了DQN的泛化性能。
+    \item Double DQN\cite{van2015deep}结合Double Q-learning\cite{hasselt2010double}的思想，有效的缓解了值函数低估的问题。
+    \item PER\cite{schaul2015prioritized}在DQN的基础上加入优先经验回放，进一步提升了采样效率。
+    \item Distributional DQN\cite{dabney2017distributional}\cite{dabney2018implicit}\cite{bellemare2017distributional}将值函数扩展到值概率分布，进一步提升函数估计的准确性。
+    \item Rainbow\cite{hessel2017rainbow}将上述方法结合，形成了有效的算法。
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Policy-Based}
+  \begin{itemize}
+    \item 策略梯度定理\cite{sutton1999policy}给出了Policy Gradient算法的可行性和性能分析。
+    \item \cite{kakade2001natural}说明了梯度下降的局限性，将自然梯度下降用于Policy的优化。
+    \item A3C\cite{mnih2016asynchronous}使用异步并行缓解采样效率低下的问题。
+    \item TRPO\cite{schulman2015trust}结合\cite{kakade2001natural}给Policy Gradient的局部Off-Policy做出了理论分析。
+    \item PPO\cite{schulman2017proximal}在\cite{schulman2015trust}的基础之上做了近似估计。
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
 \frametitle{References}
 \printbibliography
 \end{frame}

@@ -1,0 +1,361 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{mnih2015human}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=MV}{%
+         family={Mnih},
+         familyi={M\bibinitperiod},
+         given={Volodymyr},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RAA}{%
+         family={Rusu},
+         familyi={R\bibinitperiod},
+         given={Andrei\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Veness},
+         familyi={V\bibinitperiod},
+         given={Joel},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BMG}{%
+         family={Bellemare},
+         familyi={B\bibinitperiod},
+         given={Marc\bibnamedelima G},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Riedmiller},
+         familyi={R\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FAK}{%
+         family={Fidjeland},
+         familyi={F\bibinitperiod},
+         given={Andreas\bibnamedelima K},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=OG}{%
+         family={Ostrovski},
+         familyi={O\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{MV+1}
+    \strng{fullhash}{MVKKSDRAAVJBMGGARMFAKOG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7540}
+    \field{pages}{529\bibrangedash 533}
+    \field{title}{Human-level control through deep reinforcement learning}
+    \field{volume}{518}
+    \field{journaltitle}{nature}
+    \field{year}{2015}
+  \endentry
+
+  \entry{watkins1992q}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WCJ}{%
+         family={Watkins},
+         familyi={W\bibinitperiod},
+         given={Christopher\bibnamedelima JCH},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dayan},
+         familyi={D\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{WCJDP1}
+    \strng{fullhash}{WCJDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3-4}
+    \field{pages}{279\bibrangedash 292}
+    \field{title}{Q-learning}
+    \field{volume}{8}
+    \field{journaltitle}{Machine learning}
+    \field{year}{1992}
+  \endentry
+
+  \entry{hausknecht2015deep}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HM}{%
+         family={Hausknecht},
+         familyi={H\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Stone},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HMSP1}
+    \strng{fullhash}{HMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep recurrent q-learning for partially observable mdps}
+    \field{journaltitle}{arXiv preprint arXiv:1507.06527}
+    \field{year}{2015}
+  \endentry
+
+  \entry{wang2016dueling}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ziyu},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schaul},
+         familyi={S\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hessel},
+         familyi={H\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hasselt},
+         familyi={H\bibinitperiod},
+         given={Hado},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lanctot},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Freitas},
+         familyi={F\bibinitperiod},
+         given={Nando},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{WZ+1}
+    \strng{fullhash}{WZSTHMHHLMFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International conference on machine learning}
+    \field{pages}{1995\bibrangedash 2003}
+    \field{title}{Dueling network architectures for deep reinforcement
+  learning}
+    \field{year}{2016}
+  \endentry
+
+  \entry{van2015deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VHH}{%
+         family={Van\bibnamedelima Hasselt},
+         familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Hado},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Guez},
+         familyi={G\bibinitperiod},
+         given={Arthur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VHHGASD1}
+    \strng{fullhash}{VHHGASD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep reinforcement learning with double q-learning}
+    \field{journaltitle}{arXiv preprint arXiv:1509.06461}
+    \field{year}{2015}
+  \endentry
+
+  \entry{hasselt2010double}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HH}{%
+         family={Hasselt},
+         familyi={H\bibinitperiod},
+         given={Hado},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HH1}
+    \strng{fullhash}{HH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{2613\bibrangedash 2621}
+    \field{title}{Double Q-learning}
+    \field{volume}{23}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2010}
+  \endentry
+
+  \entry{dabney2017distributional}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DW}{%
+         family={Dabney},
+         familyi={D\bibinitperiod},
+         given={Will},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rowland},
+         familyi={R\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BMG}{%
+         family={Bellemare},
+         familyi={B\bibinitperiod},
+         given={Marc\bibnamedelima G},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Munos},
+         familyi={M\bibinitperiod},
+         given={R{\'e}mi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DW+1}
+    \strng{fullhash}{DWRMBMGMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Distributional reinforcement learning with quantile
+  regression}
+    \field{journaltitle}{arXiv preprint arXiv:1710.10044}
+    \field{year}{2017}
+  \endentry
+
+  \entry{dabney2018implicit}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DW}{%
+         family={Dabney},
+         familyi={D\bibinitperiod},
+         given={Will},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=OG}{%
+         family={Ostrovski},
+         familyi={O\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Silver},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Munos},
+         familyi={M\bibinitperiod},
+         given={R{\'e}mi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DW+1}
+    \strng{fullhash}{DWOGSDMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Implicit quantile networks for distributional reinforcement
+  learning}
+    \field{journaltitle}{arXiv preprint arXiv:1806.06923}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bellemare2017distributional}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BMG}{%
+         family={Bellemare},
+         familyi={B\bibinitperiod},
+         given={Marc\bibnamedelima G},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DW}{%
+         family={Dabney},
+         familyi={D\bibinitperiod},
+         given={Will},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Munos},
+         familyi={M\bibinitperiod},
+         given={R{\'e}mi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMGDWMR1}
+    \strng{fullhash}{BMGDWMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A distributional perspective on reinforcement learning}
+    \field{journaltitle}{arXiv preprint arXiv:1707.06887}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
